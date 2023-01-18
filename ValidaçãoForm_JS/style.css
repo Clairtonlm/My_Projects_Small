@@ -1,0 +1,47 @@
+*{
+    font-family: Arial, Helvetica, sans-serif;
+    box-sizing: border-box;
+}
+body{
+    padding: 1rem;
+}
+h1{
+    text-align: center;
+}
+.container{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 16px;
+}
+.container .img{
+    border: 1px solid red;
+    
+}
+form{
+    display: flex;
+    flex-direction: column;
+    gap: .5rem;
+    width: 600px;
+    margin: 0 auto;
+
+}
+label{
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+input, select, textarea{
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 1.rem;
+}
+button{
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    background-color: rgb(152, 149, 149);
+    color: #fff;
+    font-size: 1.rem;
+    cursor: pointer;
+}
