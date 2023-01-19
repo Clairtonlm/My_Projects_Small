@@ -30,7 +30,7 @@ if(jobSelect.value === ""){
 }
 // Verificar se a mensagem estar preenchida
 if(messageTextarea.value === ""){
-    alert("Por favor, deixe sua mensagem")
+    alert("Por favor, deixe sua mensagem!")
     return;
 }
 
