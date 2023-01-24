@@ -1,0 +1,25 @@
+/*estilo.css*/
+form {
+    width: 50%;
+    margin: 0 auto;
+  }
+  label {
+    display: block;
+    margin-bottom: 10px;
+  }
+  input {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+  }
+  #submit-btn {
+    width: 100%;
+    background-color: #4CAF50;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+  }
+  
