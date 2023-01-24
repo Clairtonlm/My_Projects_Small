@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!DOCTYPE html>
+<html>
+<head>
+  <title>Calculadora de Água</title>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+  <script>
+    function calculateWater() {
+      var weight = document.getElementById("weight").value;
+      var water = weight * 0.033; // 0.033 é a taxa recomendada de água por quilo
+      document.getElementById("result").innerHTML = "Você deve beber " + water + " litros de água.";
+    }
+  </script>
+</head>
+<body>
+  <div class="container">
+    <h1 class="text-center">Calculadora de Água</h1>
+    <div class="form-group">
+      <label for="weight">Insira seu peso:</label>
+      <input type="number" class="form-control" id="weight" name="weight">
+    </div>
+    <button class="btn btn-primary" onclick="calculateWater()">Calcular</button>
+    <div id="result" class="text-center"></div>
+  </div>
+</body>
+</html>

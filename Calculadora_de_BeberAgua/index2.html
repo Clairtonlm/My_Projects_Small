@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!DOCTYPE html>
+<html>
+<head>
+  <title>Calculadora de Água</title>
+  <script>
+    function calculateWater() {
+      var weight = document.getElementById("weight").value;
+      var water = weight * 0.033; // 0.033 é a taxa recomendada de água por quilo
+      document.getElementById("result").innerHTML = "Você deve beber " + water + " litros de água.";
+    }
+  </script>
+</head>
+<body>
+  <h1>Calculadora de Água</h1>
+  <label for="weight">Insira seu peso:</label>
+  <input type="number" id="weight" name="weight">
+  <button onclick="calculateWater()">Calcular</button>
+  <div id="result"></div>
+</body>
+</html>
