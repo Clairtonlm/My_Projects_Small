@@ -8,23 +8,41 @@
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
+    <header>
+        <h1>Grid-Responsive</h1>
+        <div class="navegacao">
+            <nav>
+                <a href="#">Inicial</a>
+                <a href="#">Sobre</a>
+                <a href="#">Contato</a>
+            </nav>
+        </div>
+    </header>
     <main class="grid-container">
-        <div>
-            <img src="./img/430915.jpg" alt="" srcset="">
+        <div class="child">
+            <img src="./img/430915.jpg"  alt="" srcset="">
             <h1 translate="no">Esse é um titulo</h1>
             <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Necessitatibus consequatur ducimus aperiam! Saepe quidem repellat.</p>
         </div>
-        <img src="./img/analise.png" alt="" srcset="">
+        
+        <div class="child">
+            <img src="./img/IMG_3039.jpg"  height="400px" alt="" srcset="">
+            <h1 translate="no">Esse é um titulo</h1>
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Necessitatibus consequatur ducimus aperiam! Saepe quidem repellat.</p>
+        </div>
+
+        <div class="child">
+            <img src="./img/analise.png"  alt="" srcset="">
         <h1 translate="no">Esse é um titulo</h1>
         <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Necessitatibus consequatur ducimus aperiam! Saepe quidem repellat.</p>
-        <div>
-            <img src="./img/IMG_3039.jpg" alt="" srcset="">
-            <h1 translate="no">Esse é um titulo</h1>
-            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Necessitatibus consequatur ducimus aperiam! Saepe quidem repellat.</p>
-        </div>
-        <div>
-
         </div>
     </main>
+    <footer class="rodape">
+        <form action="">
+            <label for="name">Seu nome</label>
+            <input type="text" id="name">
+            <button>Inscreva-se</button>
+        </form>
+    </footer>
 </body>
 </html>
