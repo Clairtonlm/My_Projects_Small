@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="pr-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Envio de Fomulário</title>
+    <style>
+        form{
+            
+            display: grid;
+            grid-template-columns: columns;
+            gap: 5px;
+            width: 60%;
+        }
+        form , label, input{
+            padding: 10px;
+        }
+        form textarea{
+            padding: 40px;
+        }
+    </style>
+</head>
+<body>
+    <!---->
+    <form action="https://formsubmit.co/clairtonlm@gmail.com" method="POST">
+        
+        <input type="hidden" name="_next" value="http://127.0.0.1:5500/sucesso.html">-->
+        
+        <input type="hidden" name="_cc" value="notrialcx@gmail.com"/>-->
+        <!--Para responder automático-->
+        <input type="hidden" name="_autoresponse" value="Recebemos sua mensagem e logo respoderemos">
+        
+        <label for="name">Seu nome</label>
+        <input type="name" name="name" id="name" placeholder="Nome">
+
+        <label for="email">E-mail</label>
+        <input type="email" name="email" id="email">
+
+        <label for="subject">Assunto</label>
+        <input type="text" name="subject" id="subject" placeholder="Assunto">
+
+        <textarea name="message" id="message" placeholder="Mensagem"></textarea>
+        <button type="submit">Enviar</button>
+    </form>
+</body>
+</html>
