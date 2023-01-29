@@ -1,0 +1,21 @@
+### Detalhes do Projeto
+Este projeto consiste em uma página HTML e CSS com um formulário de contato que inclui campos para nome, email e telefone. Ele também inclui um botão que, quando clicado, redireciona o usuário para uma conversa no WhatsApp com um número específico.
+
+* A página é construída utilizando HTML e CSS, com a estrutura básica de uma página HTML e o estilo sendo aplicado através de uma folha de estilo externa em CSS. O formulário é construído utilizando tags de formulário HTML, incluindo labels, inputs e um botão.
+
+* A funcionalidade do botão é implementada usando uma tag "a" com um atributo "href" que contém um link para uma conversa no WhatsApp. O link é construído usando o seguinte modelo: "https://wa.me/whatsappphonenumber?text=Hello%2C+I'm+interested+in+your+services." onde "whatsappphonenumber" é o número de telefone para o qual deseja enviar a mensagem. Quando o usuário clica no botão, ele é redirecionado para essa conversa no WhatsApp.
+
+* Para usar essa página, basta baixar os arquivos HTML e CSS e abri-los em um navegador. O número de telefone deve ser atualizado no arquivo HTML antes de usar.
+
+## Tecnologias Usadas
+A página HTML e CSS é construída usando as seguintes tecnologias:
+
+* HTML (Hypertext Markup Language) é uma linguagem de marcação utilizada para estruturar o conteúdo de uma página web. Ele é usado para criar elementos como títulos, parágrafos, imagens, links, entre outros.
+
+* CSS (Cascading Style Sheets) é uma linguagem de estilo utilizada para aplicar estilo e formatação visual a um documento HTML. Ele é usado para controlar como os elementos HTML são exibidos na tela, incluindo cores, fontes, tamanhos, posições, etc.
+
+Além disso, o botão redireciona para o WhatsApp usando o link "wa.me" e o protocolo "https"
+
+O HTML e CSS são tecnologias fundamentais para criar páginas web estáticas.
+
+##### Nota: A funcionalidade de redirecionamento para o WhatsApp só funciona quando acessada através de um dispositivo móvel ou emulador de dispositivo móvel.
