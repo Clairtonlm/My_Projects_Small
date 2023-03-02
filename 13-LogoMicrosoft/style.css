@@ -1,18 +1,26 @@
 /**/
+.title{
+    border-bottom: 1px solid gray;
+}
+h1{
+   text-align: center;
+   border-bottom: 1px solide gray;
+
+}
 .microsoft{
     width: 350px;
     margin: 25px auto;
 }
-.square .red{
+.square.red{
     background-color: #f35322;
 }
-.square .blue{
+.square.blue{
     background-color: #05a6f1;
 }
-.square .gree{
+.square.gree{
     background-color: #81dc05;
 }
-.square .yellow{
+.square.yellow{
     background-color: #ffba05;
 }
 .square{
