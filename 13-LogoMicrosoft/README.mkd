@@ -5,4 +5,3 @@ Projeto bem simples apenas para treinar um pouco html e css
 
 ! [Screenshort](./code2.png)
 
-! [codigo](./code.png)
