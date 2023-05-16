@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contador de Dias, Meses e Anos</title>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+  <style>
+    .container {
+      margin-top: 50px;
+     
+    }
+   
+  </style>
+</head>
+
+<body>
+
+  <div class="container">
+    <h1>Contador de Dias, Meses e Anos</h1>
+    
+    <div>
+        <div class="form-group">
+            <label for="start-date">Data de início:</label>
+            <input type="date" class="form-control" id="start-date">
+          </div>
+          <div class="form-group">
+            <label for="end-date">Data de término:</label>
+            <input type="date" class="form-control" id="end-date">
+          </div>
+          <button type="button" class="btn btn-primary" onclick="calculateDifference()">Calcular</button>
+    </div>
+    
+    <div id="result" class="mt-3"></div>
+  </div>
+
+  <script>
+    function calculateDifference() {
+      var startDate = new Date(document.getElementById('start-date').value);
+      var endDate = new Date(document.getElementById('end-date').value);
+
+      var timeDifference = Math.abs(endDate.getTime() - startDate.getTime());
+      var daysDifference = Math.ceil(timeDifference / (1000 * 3600 * 24));
+      var monthsDifference = Math.floor(daysDifference / 30);
+      var yearsDifference = Math.floor(daysDifference / 365);
+
+      document.getElementById('result').innerHTML = `
+        <p><strong>Dias:</strong> ${daysDifference}</p>
+        <p><strong>Meses:</strong> ${monthsDifference}</p>
+        <p><strong>Anos:</strong> ${yearsDifference}</p>
+      `;
+    }
+  </script>
+</body>
+
+</html>
