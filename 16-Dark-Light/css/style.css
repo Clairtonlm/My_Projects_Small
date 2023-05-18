@@ -1,0 +1,27 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+}
+
+body{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    display: grid;
+    place-items: center;
+    height: 100vh;
+    transition: 0.6s;
+}
+.content{
+    text-align: center;
+}
+i{
+    padding: 20px;
+    font-size: xx-large;
+    cursor: pointer;
+
+
+}
+.dark{
+    background-color: black;
+    color: white;
+   transition: 0.6s;
+}
